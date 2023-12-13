@@ -1,12 +1,12 @@
 const USUARIOS = [
   {
-    dni: 75237662,
+    dni: 45678912,
     nombre: "Ronal",
     apellido: "Llapapasca",
     rol: 1,
   },
   {
-    dni: 75231908,
+    dni: 25814563,
     nombre: "Jhon",
     apellido: "Llapapasca",
     rol: 1,
