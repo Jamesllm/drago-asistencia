@@ -47,8 +47,9 @@ Después instale las dependencias con:
 ```
 Esto instalará los complementos necesarios para el correcto funcionamiento del servidor.
 
-ℹ️ **Importante:**
-Recuerda cambiar los valores de IP_PORT, DB_PASS y DB_HOS en el archivo `.env`.
+> [!IMPORTANT]
+>  Recuerda cambiar los valores de IP_PORT, DB_PASS y DB_HOS en el archivo `.env`.
+
 
 Debe renombrar el archivo  ```borrar.env``` y debe quedar asi: ```.env```
 Antes de correr el servidor necesita hacer un cambio en el archivo de variables de entorno ```.env```, específicamente en ```IP_PORT``` que tendrá que ser cambiado por su IP, tambien ```DB_PASS``` y ```DB_HOS```. El archivo ```.env``` lo encontrará en ```/backend/.env```.
@@ -58,11 +59,14 @@ Después de instalar las dependencias y cambiar el valor de ```IP_PORT``` ejecut
  yarn start
 ```
 
-✅ **Éxito:**
+
+
+> ✅ **Éxito:**
 Con eso, el servidor se ha iniciado correctamente en
 ```bash
  localhost:3004
 ```
+
 
 ## 🚀 Ejecutar el FrontEnd
 
