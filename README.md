@@ -1,6 +1,8 @@
 # Sistema de Control de Asistencia e Inventario DRAGO
 ![sistema](./images/phone-version.png)
-<img center src="./images/phone-version.png" />
+<div>
+  <img center src="./images/phone-version.png" />
+</div>
 Este sistema es una solución a un problema de la empresa Drago, desarrollado con el objetivo de aplicar los conceptos aprendidos en el curso de Introducción a las TIC.
 
 ## Clonar el Repositorio
