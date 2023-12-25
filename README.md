@@ -1,5 +1,5 @@
 # Sistema de Control de Asistencia e Inventario DRAGO
-![sistema](./images/ingreso.jpg)
+![sistema](./images/phone-version.jpg)
 
 Este sistema es una solución a un problema de la empresa Drago, desarrollado con el objetivo de aplicar los conceptos aprendidos en el curso de Introducción a las TIC.
 
