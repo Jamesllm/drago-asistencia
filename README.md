@@ -1,8 +1,17 @@
-# Sistema de Control de Asistencia e Inventario DRAGO
-![sistema](./images/phone-version.png)
-Este sistema es una solución a un problema de la empresa Drago, desarrollado con el objetivo de aplicar los conceptos aprendidos en el curso de Introducción a las TIC.
+# Sistema de Control de Asistencia e Inventario DRAGO🚀
 
-## Clonar el Repositorio
+![sistema](./images/phone-version.png)
+
+Propuesta de solución a un problema de la empresa Drago, desarrollado con el objetivo de aplicar los conceptos aprendidos en el curso de Introducción a las TIC.
+
+
+# Lenguajes utilizados para su elaboracion
+- REACT JS
+- NODE JS
+- SQL
+
+
+## 📥 Clonar el Repositorio
 
 Para clonar el repositorio en su computadora, debe seguir los siguientes pasos:
 
@@ -15,7 +24,7 @@ Si no tiene instalado Git en su computadora, puede descargar el proyecto haciend
 
 ![sistema](./images/btn.png)
 
-## Crear Base de Datos en PostgreSQL
+## 🛠️ Crear Base de Datos en PostgreSQL
 
 Para iniciar, cree la base de datos con el nombre ```drago_registro```. 
 
@@ -27,7 +36,7 @@ Después de haber creado la base de datos, procedemos a generar las tablas corre
 
 El código SQL lo encontrará en la carpeta ```/backend/database.sql```.
 
-## Ejecutar el Servidor
+## 🚀 Ejecutar el Servidor
 
 Para ejecutar el servidor necesita situarse en la carpeta ```/backend```.
 
@@ -38,7 +47,9 @@ Después instale las dependencias con:
 ```
 Esto instalará los complementos necesarios para el correcto funcionamiento del servidor.
 
-**Importante**
+ℹ️ **Importante:**
+Recuerda cambiar los valores de IP_PORT, DB_PASS y DB_HOS en el archivo `.env`.
+
 Debe renombrar el archivo  ```borrar.env``` y debe quedar asi: ```.env```
 Antes de correr el servidor necesita hacer un cambio en el archivo de variables de entorno ```.env```, específicamente en ```IP_PORT``` que tendrá que ser cambiado por su IP, tambien ```DB_PASS``` y ```DB_HOS```. El archivo ```.env``` lo encontrará en ```/backend/.env```.
 
@@ -47,12 +58,13 @@ Después de instalar las dependencias y cambiar el valor de ```IP_PORT``` ejecut
  yarn start
 ```
 
-Con eso, el servidor estará corriendo en 
+✅ **Éxito:**
+Con eso, el servidor se ha iniciado correctamente en
 ```bash
  localhost:3004
 ```
 
-## Ejecutar el FrontEnd
+## 🚀 Ejecutar el FrontEnd
 
 Para correr el frontend, es prácticamente lo mismo que el backend. Debe situarse en la carpeta ```/frontend```.
 
